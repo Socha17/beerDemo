@@ -1,6 +1,8 @@
 
 .app {
   display: flex;
+  align-items: stretch;
+  height: 100vh;
 }
 
 .sidenav {
@@ -9,6 +11,14 @@
   background-color: #111;
   transition: 0.5s;
   padding-top: 60px;
+}
+
+.sidenav > button {
+  margin: 0 0 15px 20px;
+  border: none;
+  background: none;
+  color: white;
+  font-size: 1.2em;
 }
 
 .content {
