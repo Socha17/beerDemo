@@ -24,7 +24,6 @@ class App extends Component {
        showState[key] = false;
      }
      showState[e.target.name] = true;
-
      this.setState({displayState: showState});
    }
 

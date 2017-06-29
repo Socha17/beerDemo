@@ -24,3 +24,21 @@
 .content {
   width: 80%;
 }
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+    margin: auto;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: black;
+    color: white;
+}
