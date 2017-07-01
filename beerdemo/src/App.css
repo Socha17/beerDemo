@@ -42,3 +42,44 @@ th {
     background-color: black;
     color: white;
 }
+
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: black;
+}
+
+section {
+  width: 70%;
+  margin: auto;
+}
+
+.beer {
+  height: 200px;
+  width: 25%;
+  border-radius: 5px;
+  border: 1px solid black;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+}

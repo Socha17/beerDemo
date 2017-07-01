@@ -5,7 +5,7 @@ import Store from './Store.js'
 import AddProduct from './AddProduct.js'
 
 class App extends Component {
-
+  // toggle components
   constructor(props) {
   super(props);
     this.state = {

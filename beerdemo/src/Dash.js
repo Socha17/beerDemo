@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 
+// past orders tables
 class Dash extends Component {
   render() {
     return (
       <div>
           <h1>Dash</h1>
           <h2>Past Orders</h2>
-          <section>
+          <article>
             <table>
               <tr>
                 <th>Order Number</th>
@@ -39,7 +40,7 @@ class Dash extends Component {
                 <td>Boneshaker IPA</td>
             </tr>
             </table>
-          </section>
+          </article>
       </div>
     );
   }
