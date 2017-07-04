@@ -75,11 +75,16 @@ section {
 }
 
 .beer {
-  height: 200px;
   width: 25%;
   border-radius: 5px;
   border: 1px solid black;
   display: inline-block;
   margin: 10px;
   padding: 10px;
+}
+
+
+.beerImg {
+  max-width: 200px;
+  max-height: 300px;
 }

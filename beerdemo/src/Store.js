@@ -39,8 +39,12 @@ class Store extends Component {
     let beer = this.state.beer
     let listItems = beer.map((c, i) =>
     <div className="beer" key={beer[i].id}>
-      <h3>{beer[i].type}</h3>
-      <h4>{beer[i].price}</h4>
+      <img className="beerImg" src='http://i.imgur.com/kIXhjlE.jpg' alt="beerPic"></img> <br/>
+      <span>Name:</span>
+      <span>{beer[i].type}</span> <br/>
+      <span>Price:</span>
+      <span>{beer[i].price}</span> <br/>
+      <button>Add To Order</button>
     </div>
     );
 
