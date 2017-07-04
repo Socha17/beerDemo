@@ -32,9 +32,10 @@ class App extends Component {
     return (
       <div className="app">
         <div className="sidenav">
-          <button name="showDash" onClick={this.toggleDisplay}> Home</button> <br/>
-          <button name="showStore" onClick={this.toggleDisplay}>Store</button> <br/>
-          <button name="showAddP" onClick={this.toggleDisplay}>Add Product</button>
+          <i className="fa fa-user-circle-o" aria-hidden="true"></i><p>Matt Socha</p> <br/>
+          <i className="fa fa-home" aria-hidden="true"></i><button name="showDash" onClick={this.toggleDisplay}> Home</button> <br/>
+          <i className="fa fa-beer" aria-hidden="true"></i><button name="showStore" onClick={this.toggleDisplay}>Store</button> <br/>
+          <i className="fa fa-plus-circle" aria-hidden="true"></i><button name="showAddP" onClick={this.toggleDisplay}>Add Product</button>
         </div>
         <div className="content">
           {this.state.displayState.showDash && <Dash/>}

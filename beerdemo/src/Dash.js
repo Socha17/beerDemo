@@ -5,7 +5,7 @@ class Dash extends Component {
   render() {
     return (
       <div>
-          <h1>Dash</h1>
+          <h1>Home</h1>
           <h2>Past Orders</h2>
           <article>
             <table>
