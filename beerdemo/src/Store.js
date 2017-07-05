@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-
-
+// NOTES
+// add different images per beer
 class Store extends Component {
 
 
